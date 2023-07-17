@@ -44,7 +44,6 @@ Composition	Hiragana	InputModeHiragana
 Composition	Home	MoveCursorToBeginning
 Composition	Katakana	InputModeFullKatakana
 Composition	Left	MoveCursorLeft
-Composition	Muhenkan	SwitchKanaType
 Composition	Right	MoveCursorRight
 Composition	Shift Backspace	Backspace
 Composition	Shift ESC	Cancel
@@ -98,7 +97,6 @@ Conversion	Hiragana	InputModeHiragana
 Conversion	Home	SegmentFocusFirst
 Conversion	Katakana	InputModeFullKatakana
 Conversion	Left	SegmentFocusLeft
-Conversion	Muhenkan	SwitchKanaType
 Conversion	PageDown	ConvertNextPage
 Conversion	PageUp	ConvertPrevPage
 Conversion	Right	SegmentFocusRight
@@ -129,13 +127,15 @@ Precomposition	Hankaku/Zenkaku	IMEOff
 Precomposition	Hiragana	InputModeHiragana
 Precomposition	Henkan	Reconvert
 Precomposition	Katakana	InputModeFullKatakana
-Precomposition	Muhenkan	InputModeSwitchKanaType
 Precomposition	Shift Muhenkan	ToggleAlphanumericMode
 Precomposition	Shift Space	InsertAlternateSpace
 Precomposition	Space	InsertSpace
 Prediction	Ctrl Delete	DeleteSelectedCandidate
 Suggestion	Down	PredictAndConvert
 Suggestion	Shift Enter	CommitFirstSuggestion
+Precomposition	Ctrl F7	LaunchWordRegisterDialog
+Precomposition	Ctrl F8	LaunchConfigDialog
+Precomposition	Ctrl F9	LaunchDictionaryTool
 Composition	ASCII	InsertCharacter
 Composition	Kanji	IMEOff
 Composition	OFF	IMEOff
